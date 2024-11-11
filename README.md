@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Ameer Azaz Arko
+- 👋 Hi, I’m Ameer Azaz Arko.
 - 👀 I’m interested in AI/ML.
 - 🌱 I’m currently learning C++ And JAVA.
 - 💞️ I’m looking to collaborate on any project.
