@@ -1,3 +1,5 @@
+![Purple Abstract Graphic Design LinkedIn Article Cover Image](https://github.com/user-attachments/assets/118c1b8b-b426-4d9a-9d2e-2d3d3f92e29d)
+
 <h1 align="center">Hi 👋, I'm Ameer Azaz Arko</h1>
 <h3 align="center">A passionate AI/ML enthusiast and solver.</h3>
 <img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/200w.webp?cid=790b7611qbx5zkfrgmfhyat9v7grttydjy52jipojrz1f1g9&ep=v1_gifs_search&rid=200w.webp&ct=g">
