@@ -23,7 +23,7 @@
 <a href="https://www.leetcode.com/ameerarko" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ameerarko" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/arkoameer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="https://www.hackerrank.com/profile/arkoameer" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/arkoadpdc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="arkoadpdc" height="30" width="40" /></a>
-<a href="https://discord.gg/ameer_arko" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="ameer_arko" height="30" width="40" /></a>
+<a href="https://discord.com/channels/@me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="ameer_arko" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
