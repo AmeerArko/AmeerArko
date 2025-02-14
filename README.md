@@ -1,8 +1,9 @@
 ![Purple Abstract Graphic Design LinkedIn Article Cover Image](https://github.com/user-attachments/assets/118c1b8b-b426-4d9a-9d2e-2d3d3f92e29d)
 
 <h1 align="center">Hi 👋, I'm Ameer Azaz Arko</h1>
-<h3 align="center">A passionate AI/ML enthusiast and solver.</h3>
+<h3 align="center">I am a Computer Science and Engineering (CSE) student from Bangladesh with a deep passion for Artificial Intelligence (AI), Machine Learning (ML), and problem-solving. I thrive on tackling complex challenges and continuously expanding my knowledge in cutting-edge technologies. With an ambitious mindset, I aim to push the boundaries of AI innovation and make a meaningful impact. My goal is to develop intelligent systems that solve real-world problems efficiently. I am always eager to learn, explore, and contribute to the evolving field of AI and ML.</h3>
 <img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/200w.webp?cid=790b7611qbx5zkfrgmfhyat9v7grttydjy52jipojrz1f1g9&ep=v1_gifs_search&rid=200w.webp&ct=g">
+
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ameerarko&label=Profile%20views&color=0e75b6&style=flat" alt="ameerarko" /> </p>
