@@ -1,4 +1,4 @@
-![Purple Abstract Graphic Design LinkedIn Article Cover Image (2)](https://github.com/user-attachments/assets/146f53c9-b804-4922-8585-2963686aecbb)
+!["C:\Users\arkoa\OneDrive\Desktop\Important-images\linkdin-cover.png"](https://github.com/user-attachments/assets/146f53c9-b804-4922-8585-2963686aecbb)
 
 
 <h1 align="center">Hi 👋, I'm Ameer Azaz Arko</h1>
