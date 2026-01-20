@@ -1,5 +1,5 @@
 ![<img width="1584" height="396" alt="linkdin-cover" src="C:\Users\arkoa\OneDrive\Desktop\Important-images\linkdin-cover.png" />
-]("C:\Users\arkoa\OneDrive\Desktop\Important-images\linkdin-cover.png")
+](C:\Users\arkoa\OneDrive\Desktop\Important-images\linkdin-cover.png)
 
 
 <h1 align="center">Hi 👋, I'm Ameer Azaz Arko</h1>
