@@ -16,5 +16,8 @@ I take messy, real-world problems and turn them into clean, intelligent systems 
 <p align="center">
     <img src="https://i.pinimg.com/originals/4c/27/a1/4c27a119d8013fd72d833aa69043ca9a.gif" width="640">
 </p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmeerArko&theme=github-dark" />
+</p>
 
 </p> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,35:ff6600,70:0066ff,100:1a1a2e&height=150&section=footer" width="100%"/> <div align="center"> <sub>⚡ "The more you exceed your limits, the more you'll keep growing." — now go check out my repos.</sub> </div>
