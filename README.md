@@ -22,7 +22,7 @@
 
 ### 🥊 `TRAINING ARC // LEVEL UP`
 
-<img src="assets/training.svg" width="800" alt="Animated training scene: a warrior does push-ups while energy dots rise and LEVEL UP flashes"/>
+<img src="file:///C:/Users/arkoa/OneDrive/Desktop/background-image/training.svg" width="800" alt="Animated training scene: a warrior does push-ups while energy dots rise and LEVEL UP flashes"/>
 
 </div>
 
