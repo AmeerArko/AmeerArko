@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Animated warrior doing push-ups while energy dots rise and a LEVEL UP message flashes" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0b1a"/>
+      <stop offset="1" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0066ff"/>
+      <stop offset="1" stop-color="#ff6600"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="300" fill="url(#bg)"/>
+
+  <!-- scrolling grid -->
+  <g stroke="#0066ff" stroke-opacity="0.18" stroke-width="1">
+    <line x1="0" y1="60" x2="800" y2="60"/><line x1="0" y1="110" x2="800" y2="110"/>
+    <line x1="0" y1="160" x2="800" y2="160"/><line x1="0" y1="210" x2="800" y2="210"/>
+    <g>
+      <line x1="50" y1="0" x2="50" y2="300"/><line x1="150" y1="0" x2="150" y2="300"/>
+      <line x1="250" y1="0" x2="250" y2="300"/><line x1="350" y1="0" x2="350" y2="300"/>
+      <line x1="450" y1="0" x2="450" y2="300"/><line x1="550" y1="0" x2="550" y2="300"/>
+      <line x1="650" y1="0" x2="650" y2="300"/><line x1="750" y1="0" x2="750" y2="300"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;100 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="30" y="40" font-family="monospace" font-size="16" fill="#00e5ff" filter="url(#glow)">&gt; TRAINING_MODE.exe</text>
+  <text x="30" y="62" font-family="monospace" font-size="12" fill="#8888aa">push-ups: running  |  focus: AI / ML + CP</text>
+
+  <!-- ground -->
+  <rect x="0" y="232" width="800" height="68" fill="#05050f"/>
+  <line x1="0" y1="232" x2="800" y2="232" stroke="#ff6600" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- aura -->
+  <ellipse cx="350" cy="195" rx="170" ry="70" fill="url(#aura)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="150;185;150" dur="1.6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- warrior (original character: headband, no hair) -->
+  <g stroke="#e8f6ff" stroke-width="12" stroke-linecap="round" fill="none">
+    <!-- legs + torso -->
+    <line x1="250" y1="224" x2="430" y2="192">
+      <animate attributeName="y2" values="192;212;192" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+    <!-- arm -->
+    <line x1="430" y1="192" x2="445" y2="226">
+      <animate attributeName="y1" values="192;212;192" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="430;430;430" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <!-- belt accent -->
+  <line x1="330" y1="210" x2="340" y2="208" stroke="#ff6600" stroke-width="8" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -11;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </line>
+  <!-- head -->
+  <circle cx="455" cy="176" r="15" fill="#e8f6ff">
+    <animate attributeName="cy" values="176;196;176" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- headband -->
+  <rect x="440" y="170" width="30" height="5" fill="#ff6600">
+    <animate attributeName="y" values="170;190;170" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- rising energy dots -->
+  <g fill="#00e5ff" filter="url(#glow)">
+    <circle cx="260" cy="220" r="3"><animate attributeName="cy" values="220;90" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="215" r="2"><animate attributeName="cy" values="215;70" dur="3s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="3s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="210" r="4"><animate attributeName="cy" values="210;80" dur="2.7s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.7s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="205" r="2.5"><animate attributeName="cy" values="205;60" dur="3.2s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="3.2s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="200" r="3"><animate attributeName="cy" values="200;75" dur="2.5s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="205" r="2"><animate attributeName="cy" values="205;85" dur="2.9s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.9s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="225" r="2"><animate attributeName="cy" values="225;100" dur="2.2s" begin="1.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="222" r="3.5"><animate attributeName="cy" values="222;65" dur="3.4s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="3.4s" begin="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#ff6600" filter="url(#glow)">
+    <circle cx="280" cy="222" r="2.5"><animate attributeName="cy" values="222;95" dur="2.8s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="212" r="3"><animate attributeName="cy" values="212;70" dur="3.1s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="3.1s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="445" cy="210" r="2"><animate attributeName="cy" values="210;90" dur="2.6s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- power bar -->
+  <text x="560" y="150" font-family="monospace" font-size="12" fill="#8888aa">POWER</text>
+  <rect x="560" y="158" width="210" height="14" rx="7" fill="#05050f" stroke="#0066ff" stroke-opacity="0.6"/>
+  <rect x="562" y="160" width="0" height="10" rx="5" fill="url(#bar)" filter="url(#glow)">
+    <animate attributeName="width" values="0;206;206" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- LEVEL UP message -->
+  <g text-anchor="middle" font-family="monospace" font-weight="bold" opacity="0">
+    <text x="665" y="105" font-size="34" fill="#ffcc00" filter="url(#glow)">LEVEL UP!</text>
+    <text x="665" y="128" font-size="13" fill="#00e5ff">+1 POWER  //  KEEP GRINDING</text>
+    <animate attributeName="opacity" values="0;0;1;0.4;1;0.4;1;0" keyTimes="0;0.85;0.87;0.9;0.93;0.96;0.98;1" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0" keyTimes="0;0.85;0.9;1" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- status line -->
+  <text x="560" y="200" font-family="monospace" font-size="11" fill="#8888aa">
+    status: charging
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4ZTIyOGJlNS1lYmRhLTRhMjEtYmM2MC01ZjFmMTI4YzRhOWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAGEyT4kg5emweiABzvfQP4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphMjhhMDI0NC0wYjdhLTQ2ODQtOTEzNS1jYjM3YjliMWE3MzlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoMP+iveOEHjjbKGb22RYXQgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg+epQAJ+BwBsx80E4+qTGbqgbuQRA6IieCOGAvJA50cikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJqRFsPItbidkHy8KI0oC1gAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIALmALiLrEpxCjCmPtEm+BciVs6Bby/sN9CoP9LOcfRXZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR5RZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjhlMjI4YmU1LWViZGEtNGEyMS1iYzYwLTVmMWYxMjhjNGE5Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjVkN2Q4MDViLTk3NmMtNDZlYy05ODk0LTQwYjY3ZDFkOTlhMXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD56lAAn4HAGzHzQTj6pMZuqBu5BEDoiJ4I4YC8kDnRyKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg0CcZz4DnROMxNnEzYNkIrIji7wGD3xgaBr010+FvcTCiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmvxx4s1g9Yy+QQpiYO0zTx63O8+03muEOlf+kjhmKzR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJDxovBhvM9OAPDAGFcY7YktS7Il/1VpCHpyGvhMeOb1o+ASmyGb45AybXKMT0auQaKtnkMsR42VWWLtOHXrZjs=</c2pa:manifest></metadata></svg>
