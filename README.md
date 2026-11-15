@@ -22,7 +22,7 @@
 
 ### 🥊 `TRAINING ARC // LEVEL UP`
 
-<img src="assets/training.svg" width="800" alt="Animated training scene: a warrior does push-ups while energy dots rise and LEVEL UP flashes"/>
+
 
 </div>
 
@@ -116,9 +116,6 @@ class Arko:
 
 <h3 align="center">🏆 Trophy Room</h3>
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=AmeerArko&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b1a,35:ff6600,70:0066ff,100:0b0b1a&height=150&section=footer" width="100%" alt="footer"/>
 
